@@ -25,9 +25,10 @@ export const siteContent: SiteContent = {
   },
   metrics: [
     { value: '4+', label: { en: 'years in Unity', ru: 'года в Unity' } },
-    { value: '3', label: { en: 'shipping platforms', ru: 'целевые платформы' } },
+    { value: '4', label: { en: 'release platforms', ru: 'платформы релиза' } },
     { value: '30+', label: { en: 'FPS on low-end Android', ru: 'FPS на слабых Android' } },
     { value: '5', label: { en: 'selected products', ru: 'избранных проектов' } },
+    { value: '20+', label: { en: 'gameplay videos on YouTube', ru: 'геймплей-видео на YouTube' } },
   ],
   sectionTitles: {
     work: { en: 'Selected work', ru: 'Избранные проекты' },
