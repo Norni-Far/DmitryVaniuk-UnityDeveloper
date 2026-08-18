@@ -36,7 +36,7 @@ function App() {
               <div className="hero-title-wrap"><span className="hero-glow" aria-hidden="true" /><h1 id="hero-title">{t(content.hero.title)}</h1></div>
               <p className="hero-summary">{t(content.hero.summary)}</p>
               <div className="hero-actions">
-                <a className="button primary telegram-action" href={content.contact.primary.url} target="_blank" rel="noreferrer"><TelegramIcon /><span>{t(content.contact.primary.label)}</span><small>{content.contact.primary.value}</small></a>
+                <a className="button primary telegram-action" href={content.contact.primary.url} target="_blank" rel="noreferrer"><TelegramIcon /><span>{t(content.contact.primary.label)}</span></a>
                 <a className="button secondary" href={content.cvUrl} download><DownloadIcon />{t(content.labels.downloadCv)}</a>
               </div>
             </div>
