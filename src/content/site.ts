@@ -83,6 +83,7 @@ export const siteContent: SiteContent = {
   languages: [
     { name: { en: 'English', ru: 'Английский' } },
     { name: { en: 'Russian', ru: 'Русский' } },
+    { name: { en: 'Belarusian', ru: 'Белорусский' } },
   ],
   contact: {
     title: { en: 'Let’s build something dependable.', ru: 'Давайте создадим надёжный продукт.' },
