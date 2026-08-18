@@ -1,6 +1,6 @@
 {
   "id": "event-controller",
-  "order": 5,
+  "order": 4,
   "title": { "en": "Stugi", "ru": "Stugi" },
   "period": { "en": "Commercial project", "ru": "Коммерческий проект" },
   "summary": {

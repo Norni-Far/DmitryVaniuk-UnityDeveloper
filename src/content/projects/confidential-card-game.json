@@ -22,7 +22,7 @@
     ]
   },
   "technologies": ["C#", "Unity", "Nakama", "Firebase", "Sentry", "OneSignal", "Unity Localization"],
-  "platforms": ["Mobile"],
+  "platforms": ["Android"],
   "artwork": "./assets/projects/confidential-card-game.svg",
   "links": [
     {

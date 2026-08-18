@@ -1,7 +1,7 @@
 {
   "id": "nft-holders",
-  "order": 4,
-  "title": { "en": "NFT Holders / Web3 Game", "ru": "NFT Holders / Web3-игра" },
+  "order": 5,
+  "title": { "en": "Mintton", "ru": "Mintton" },
   "period": { "en": "Commercial project", "ru": "Коммерческий проект" },
   "summary": {
     "en": "A WebGL game engagement focused on recovering a legacy codebase and connecting gameplay outcomes to secure Web3 flows.",
@@ -22,5 +22,11 @@
   "technologies": ["C#", "Unity", "WebGL", "Thirdweb"],
   "platforms": ["WebGL"],
   "artwork": "./assets/projects/nft-holders.svg",
-  "links": []
+  "links": [
+    {
+      "kind": "youtube",
+      "label": { "en": "Watch demo", "ru": "Смотреть демо" },
+      "url": "https://www.youtube.com/watch?v=rsS-9hqxG6I&list=PLjwWjcNak-vADGGtZnLkeD9Goow8hOl4s&index=20"
+    }
+  ]
 }
