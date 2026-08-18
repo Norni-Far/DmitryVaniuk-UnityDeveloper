@@ -28,11 +28,9 @@ export function ProjectCard({ project, locale, index }: ProjectCardProps) {
       </div>
       <div className="project-body">
         <div className="project-heading">
-          <div>
-            <p className="project-period">{t(project.period)}</p>
-            <h3>{t(project.title)}</h3>
-          </div>
-          <div className="platforms">{project.platforms.join(' · ')}</div>
+          <p className="project-period">{t(project.period)}</p>
+          <p className="platforms">{project.platforms.join(' · ')}</p>
+          <h3>{t(project.title)}</h3>
         </div>
         <p className="project-summary">{t(project.summary)}</p>
         <div className="contributions">
@@ -45,19 +43,18 @@ export function ProjectCard({ project, locale, index }: ProjectCardProps) {
           <ul className="tags" aria-label="Technologies">
             {project.technologies.map((technology) => <li key={technology}>{technology}</li>)}
           </ul>
-          {project.links.length > 0 && (
-            <div className="project-links">
-              {project.links.map((link) => (
+          <div className="project-links">
+            {project.links.map((link) => {
+              const Icon = linkIcons[link.kind]
+              return (
                 <a className="project-link-button" key={link.url} href={link.url} target="_blank" rel="noreferrer">
-                  {(() => {
-                    const Icon = linkIcons[link.kind]
-                    return <Icon />
-                  })()}
-                  <span>{t(link.label)}</span><ExternalArrowIcon className="link-arrow" />
+                  <Icon />
+                  <span>{t(link.label)}</span>
+                  <ExternalArrowIcon className="link-arrow" />
                 </a>
-              ))}
-            </div>
-          )}
+              )
+            })}
+          </div>
         </div>
       </div>
     </article>
