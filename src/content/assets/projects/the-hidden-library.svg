@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+  <title id="t">Abstract hidden library artwork</title><desc id="d">A luminous doorway framed by geometric bookshelves</desc>
+  <defs><radialGradient id="light"><stop stop-color="#54d5ff" stop-opacity=".7"/><stop offset="1" stop-color="#54d5ff" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="720" fill="#0c1017"/><ellipse cx="600" cy="390" rx="400" ry="330" fill="url(#light)" opacity=".35"/>
+  <g fill="#192231" stroke="#38465b" stroke-width="3"><path d="M125 100h330v520H125Z"/><path d="M745 100h330v520H745Z"/></g>
+  <g stroke="#9d8cff" stroke-width="7" opacity=".75"><path d="M150 205h280M150 340h280M150 475h280M770 205h280M770 340h280M770 475h280"/></g>
+  <g fill="#54d5ff" opacity=".6"><path d="M180 145h35v60h-35zM235 125h50v80h-50zM305 155h80v50h-80zM800 130h45v75h-45zM865 150h70v55h-70zM955 120h40v85h-40z"/></g>
+  <path d="M485 620V210q115-105 230 0v410Z" fill="#101722" stroke="#eef3f8" stroke-width="5"/><path d="M600 260v360" stroke="#54d5ff" stroke-width="4"/><circle cx="625" cy="425" r="10" fill="#72dfb1"/>
+</svg>

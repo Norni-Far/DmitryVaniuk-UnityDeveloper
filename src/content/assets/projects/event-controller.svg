@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+  <title id="t">Abstract event controller artwork</title><desc id="d">A mobile controller synchronizing multiple event displays</desc>
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#182538"/><stop offset="1" stop-color="#29214b"/></linearGradient></defs><rect width="1200" height="720" fill="#0b0e13"/>
+  <g fill="url(#g)" stroke="#44546b" stroke-width="4"><rect x="110" y="160" width="300" height="260" rx="18"/><rect x="790" y="160" width="300" height="260" rx="18"/><rect x="475" y="90" width="250" height="540" rx="38"/></g>
+  <g stroke="#54d5ff" stroke-width="7" fill="none"><path d="M410 290h65M725 290h65"/><path d="M435 270l40 20-40 20M765 270l-40 20 40 20"/></g>
+  <g fill="#eef3f8"><rect x="525" y="155" width="65" height="65"/><rect x="610" y="155" width="65" height="65"/><rect x="525" y="240" width="65" height="65"/><path d="M625 240h50v25h-25v40h-25Z"/></g>
+  <circle cx="600" cy="470" r="70" fill="#278cff" opacity=".75"/><path d="m580 435 60 35-60 35Z" fill="#eef3f8"/><g fill="#9d8cff"><circle cx="260" cy="520" r="10"/><circle cx="940" cy="520" r="10"/></g>
+</svg>

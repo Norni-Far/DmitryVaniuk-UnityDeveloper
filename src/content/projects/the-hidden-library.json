@@ -1,0 +1,32 @@
+{
+  "id": "the-hidden-library",
+  "order": 3,
+  "title": { "en": "The Hidden Library", "ru": "The Hidden Library" },
+  "period": { "en": "Commercial project", "ru": "Коммерческий проект" },
+  "summary": {
+    "en": "A point-and-click adventure built from core interactions through progression, authored levels, mini-games, and character animation.",
+    "ru": "Point-and-click приключение: от базовых взаимодействий до прогрессии, уровней, мини-игр и анимации персонажей."
+  },
+  "contributions": {
+    "en": [
+      "Built core point-and-click systems, inventory, scene flow, and progression.",
+      "Delivered four levels and multiple mini-games.",
+      "Integrated Spine 2D animation into the production pipeline."
+    ],
+    "ru": [
+      "Разработал основные point-and-click системы, инвентарь, переходы сцен и прогрессию.",
+      "Реализовал четыре уровня и несколько мини-игр.",
+      "Интегрировал Spine 2D в производственный процесс."
+    ]
+  },
+  "technologies": ["C#", "Unity", "Spine 2D"],
+  "platforms": ["PC", "Steam"],
+  "artwork": "./assets/projects/the-hidden-library.svg",
+  "links": [
+    {
+      "kind": "steam",
+      "label": { "en": "Steam", "ru": "Steam" },
+      "url": "https://store.steampowered.com/app/3410030/The_Hidden_Library/"
+    }
+  ]
+}

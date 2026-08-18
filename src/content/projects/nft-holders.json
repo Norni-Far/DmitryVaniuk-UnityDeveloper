@@ -1,0 +1,26 @@
+{
+  "id": "nft-holders",
+  "order": 4,
+  "title": { "en": "NFT Holders / Web3 Game", "ru": "NFT Holders / Web3-игра" },
+  "period": { "en": "Commercial project", "ru": "Коммерческий проект" },
+  "summary": {
+    "en": "A WebGL game engagement focused on recovering a legacy codebase and connecting gameplay outcomes to secure Web3 flows.",
+    "ru": "WebGL-проект с фокусом на восстановлении legacy-кода и интеграции игровых результатов с Web3-процессами."
+  },
+  "contributions": {
+    "en": [
+      "Refactored legacy systems and resolved inherited defects.",
+      "Implemented server-provided winning combinations and prizes.",
+      "Integrated wallet authentication and blockchain transactions with Thirdweb."
+    ],
+    "ru": [
+      "Провёл рефакторинг legacy-систем и устранил унаследованные дефекты.",
+      "Реализовал получение выигрышных комбинаций и призов с сервера.",
+      "Интегрировал авторизацию кошелька и blockchain-транзакции через Thirdweb."
+    ]
+  },
+  "technologies": ["C#", "Unity", "WebGL", "Thirdweb"],
+  "platforms": ["WebGL"],
+  "artwork": "./assets/projects/nft-holders.svg",
+  "links": []
+}

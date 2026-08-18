@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+  <title id="t">Abstract castle optimization artwork</title><desc id="d">Geometric castle silhouettes, paths, and performance graph</desc>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#172235"/><stop offset="1" stop-color="#0b0e13"/></linearGradient><linearGradient id="land"><stop stop-color="#215b77"/><stop offset="1" stop-color="#483b7d"/></linearGradient></defs>
+  <rect width="1200" height="720" fill="url(#sky)"/><path d="M0 560L230 390l130 90 190-205 180 160 130-105 340 240v150H0Z" fill="url(#land)" opacity=".6"/>
+  <g fill="#151b26" stroke="#54d5ff" stroke-width="3"><path d="M430 525V300h70v-55h80v55h70v-55h80v55h70v225Z"/><path d="M535 525V410q65-75 130 0v115Z"/></g>
+  <path d="M130 585c170-130 310-5 475-125s275-70 450-270" fill="none" stroke="#72dfb1" stroke-width="8" stroke-dasharray="16 14"/>
+  <g fill="#72dfb1"><circle cx="130" cy="585" r="13"/><circle cx="1055" cy="190" r="13"/></g><text x="860" y="125" fill="#eef3f8" font-family="monospace" font-size="52">30+ FPS</text>
+</svg>

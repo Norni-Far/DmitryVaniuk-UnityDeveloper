@@ -1,0 +1,34 @@
+{
+  "id": "confidential-card-game",
+  "order": 1,
+  "title": { "en": "Football 6-7", "ru": "Football 6-7" },
+  "period": { "en": "Commercial project", "ru": "Коммерческий проект" },
+  "summary": {
+    "en": "Live-service card game work spanning backend ownership, player onboarding, identity, social systems, progression, and realtime product surfaces.",
+    "ru": "Live-service карточная игра: backend-зона ответственности, онбординг, идентификация, социальные системы, прогрессия и realtime-интерфейсы."
+  },
+  "contributions": {
+    "en": [
+      "Owned Firebase rules, indexes, access strategy, and environment configuration.",
+      "Built Nakama match state and chat, full FTUE, authentication, sessions, and account linking.",
+      "Delivered push deep links, CRUD Mail Center, Season Pass, and a paginated realtime leaderboard.",
+      "Structured profile, settings, ranking UI, and audio architecture."
+    ],
+    "ru": [
+      "Отвечал за Firebase Rules, индексы, стратегию доступа и конфигурацию окружений.",
+      "Разработал match state и чат на Nakama, полный FTUE, авторизацию, сессии и привязку аккаунтов.",
+      "Реализовал push deep links, CRUD Mail Center, Season Pass и realtime-лидерборд с пагинацией.",
+      "Спроектировал архитектуру профиля, настроек, рейтинга, UI и аудио."
+    ]
+  },
+  "technologies": ["C#", "Unity", "Nakama", "Firebase", "Sentry", "OneSignal", "Unity Localization"],
+  "platforms": ["Mobile"],
+  "artwork": "./assets/projects/confidential-card-game.svg",
+  "links": [
+    {
+      "kind": "googlePlay",
+      "label": { "en": "Google Play", "ru": "Google Play" },
+      "url": "https://play.google.com/store/apps/details?id=com.celadonwolves.heroesofthepitch"
+    }
+  ]
+}
