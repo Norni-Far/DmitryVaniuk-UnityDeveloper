@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://norni-far.github.io/DzmitryVanuyk-UnityDeveloper/sitemap.xml
+Sitemap: https://norni-far.github.io/DmitryVaniuk-UnityDeveloper/sitemap.xml

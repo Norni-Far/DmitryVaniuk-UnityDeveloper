@@ -18,7 +18,7 @@ npm run lint
 npm run build
 ```
 
-The production build is written to `dist/`. Vite is configured for the `/DzmitryVanuyk-UnityDeveloper/` GitHub Pages base path.
+The production build is written to `dist/`. Vite is configured for the `/DmitryVaniuk-UnityDeveloper/` GitHub Pages base path.
 
 ## Editing content
 
@@ -39,4 +39,4 @@ The workflow in `.github/workflows/deploy.yml` lints, builds, and deploys `dist/
 
 TEST
 
-Canonical URL: https://norni-far.github.io/DzmitryVanuyk-UnityDeveloper/
+Canonical URL: https://norni-far.github.io/DmitryVaniuk-UnityDeveloper/
