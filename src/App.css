@@ -162,6 +162,18 @@ footer { padding: 1.5rem 0; }.footer-inner { display: flex; flex-wrap: wrap; jus
 .expertise-card h3 { margin: 1.5rem 0 .75rem; font-size: 1.55rem; }
 .expertise-card p { min-height: 5.1em; margin: 0; }
 .expertise-card .tags { margin-top: 1.5rem; }
+.workflow-section { background: radial-gradient(circle at 12% 20%, rgba(84,213,255,.12), transparent 36%), var(--color-bg); }
+.workflow-layout { display: grid; gap: 2rem; align-items: start; }
+.workflow-copy h2 { margin: .75rem 0 1rem; font-size: clamp(2.25rem, 8vw, 4.2rem); line-height: 1; letter-spacing: -.055em; }
+.workflow-copy > p:not(.section-number) { color: var(--color-text-muted); max-width: 34rem; }
+.workflow-copy .section-number { display: inline-flex; align-items: center; gap: .6rem; }
+.workflow-icon { width: 1.45rem; height: 1.45rem; margin: 0; color: var(--color-accent); }
+.workflow-tools { margin-top: 1.5rem; min-height: 0; }
+.workflow-practices { margin: 0; padding: 0; list-style: none; display: grid; gap: 1rem; }
+.workflow-practices li { display: grid; grid-template-columns: auto 1fr; gap: 1rem; padding: 1.25rem 1.35rem; border: 1px solid var(--color-line); border-radius: var(--radius-lg); background: linear-gradient(145deg, rgba(84,213,255,.08), transparent 40%), var(--color-bg-elevated); }
+.workflow-step { color: var(--color-accent); font: .75rem var(--font-mono); padding-top: .2rem; }
+.workflow-practices h3 { margin: 0 0 .55rem; font-size: 1.2rem; letter-spacing: -.03em; }
+.workflow-practices p { margin: 0; color: var(--color-text-muted); }
 .contact-actions { display: grid; gap: 1rem; }
 .telegram-card { min-height: 8rem; display: grid; grid-template-columns: auto 1fr auto; gap: .85rem; align-items: center; padding: 1.25rem; border: 1px solid rgba(84,213,255,.48); border-radius: var(--radius-lg); color: #071018; background: var(--gradient-accent); text-decoration: none; box-shadow: 0 18px 48px rgba(39,140,255,.18); }
 .telegram-card > svg:first-child { width: 2rem; height: 2rem; }
@@ -182,7 +194,7 @@ footer { border-top: 1px solid var(--color-line); }
 .back-to-top:hover { color: #071018; background: var(--color-accent); }
 .back-to-top svg { width: 20px; }
 html[lang="ru"] h1 { max-width: 15ch; font-size: clamp(2.2rem, 7.2vw, 4.75rem); line-height: .98; letter-spacing: -.055em; }
-html[lang="ru"] .section-heading h2, html[lang="ru"] .experience-intro h2, html[lang="ru"] .demos-copy h2, html[lang="ru"] .contact-section h2 { font-size: clamp(2rem, 7vw, 4rem); letter-spacing: -.045em; }
+html[lang="ru"] .section-heading h2, html[lang="ru"] .experience-intro h2, html[lang="ru"] .demos-copy h2, html[lang="ru"] .workflow-copy h2, html[lang="ru"] .contact-section h2 { font-size: clamp(2rem, 7vw, 4rem); letter-spacing: -.045em; }
 html[lang="ru"] .project-heading h3 { font-size: clamp(1.22rem, 3vw, 1.48rem); }
 html[lang="ru"] .hero-summary { max-width: 39rem; }
 /* Cyrillic reads poorly in mono + uppercase + wide tracking — use Inter for RU UI labels */
@@ -203,6 +215,7 @@ html[lang="ru"] .experience-years-label {
 }
 @media (min-width: 800px) {
   .demos-layout { grid-template-columns: .7fr 1.3fr; gap: 3rem; }
+  .workflow-layout { grid-template-columns: .85fr 1.15fr; gap: 2.5rem; align-items: center; }
   .experience-intro { padding: 2rem; gap: 2rem; }
   .experience-years-label { max-width: 16ch; font-size: .8rem; }
   .experience-grid { grid-template-columns: repeat(3, 1fr); }

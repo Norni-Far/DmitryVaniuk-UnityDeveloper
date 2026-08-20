@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Header } from './components/Header'
 import { ProjectCard } from './components/ProjectCard'
-import { DownloadIcon, EmailIcon, ExternalArrowIcon, GameplayIcon, GitHubIcon, LinkedInIcon, LiveIcon, PerformanceIcon, TelegramIcon, UpArrowIcon, YoutubeIcon } from './components/Icons'
+import { DownloadIcon, EmailIcon, ExternalArrowIcon, GameplayIcon, GitHubIcon, LinkedInIcon, LiveIcon, PerformanceIcon, TelegramIcon, UpArrowIcon, WorkflowIcon, YoutubeIcon } from './components/Icons'
 import { content, projects, type Locale } from './content'
 import { useLocale } from './hooks/useLocale'
 import './App.css'
@@ -69,6 +69,32 @@ function App() {
 
         <section className="section expertise-section" id="expertise" aria-labelledby="expertise-title">
           <div className="container"><div className="section-heading compact"><div><p className="section-number">{t(content.sectionKickers.expertise)}</p><h2 id="expertise-title">{t(content.sectionTitles.expertise)}</h2></div></div><div className="expertise-grid">{content.expertise.map((item, index) => { const Icon = expertiseIcons[item.icon]; return <article className="expertise-card" key={item.title.en}><div className="expertise-top"><span className="expertise-icon"><Icon /></span><span className="expertise-number">0{index + 1}</span></div><h3>{t(item.title)}</h3><p>{t(item.description)}</p><ul className="tags">{item.tags.map((tag) => <li key={tag}>{tag}</li>)}</ul></article> })}</div></div>
+        </section>
+
+        <section className="section workflow-section" id="aimcp" aria-labelledby="workflow-title">
+          <div className="container">
+            <div className="workflow-layout">
+              <div className="workflow-copy">
+                <p className="section-number">{t(content.sectionKickers.workflow)} <WorkflowIcon className="section-icon workflow-icon" /></p>
+                <h2 id="workflow-title">{t(content.workflow.title)}</h2>
+                <p>{t(content.workflow.intro)}</p>
+                <ul className="tags workflow-tools">
+                  {content.workflow.tools.map((tool) => <li key={tool}>{tool}</li>)}
+                </ul>
+              </div>
+              <ol className="workflow-practices">
+                {content.workflow.practices.map((practice, index) => (
+                  <li key={practice.title.en}>
+                    <span className="workflow-step">0{index + 1}</span>
+                    <div>
+                      <h3>{t(practice.title)}</h3>
+                      <p>{t(practice.description)}</p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </div>
         </section>
 
         <section className="section credentials-section" aria-labelledby="credentials-title"><div className="container"><div className="section-heading compact"><div><p className="section-number">{t(content.sectionKickers.education)}</p><h2 id="credentials-title">{t(content.sectionTitles.education)}</h2></div></div><div className="credentials-grid"><article className="education-card"><p className="mini-label">{t(content.sectionTitles.education)}</p><h3>{t(content.education.degree)}</h3><p>{t(content.education.university)}</p><span>{content.education.period}</span></article><article className="languages-card"><p className="mini-label">{t(content.labels.languages)}</p>{content.languages.map((language) => <h3 key={language.name.en}>{t(language.name)}</h3>)}</article></div></div></section>

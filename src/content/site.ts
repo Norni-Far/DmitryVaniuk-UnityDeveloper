@@ -11,6 +11,7 @@ export const siteContent: SiteContent = {
     work: { en: 'Work', ru: 'Проекты' },
     experience: { en: 'Experience', ru: 'Опыт' },
     expertise: { en: 'Expertise', ru: 'Компетенции' },
+    aimcp: { en: 'AI/MCP', ru: 'AI/MCP' },
     contact: { en: 'Contact me', ru: 'Связаться со мной' },
   },
   hero: {
@@ -39,6 +40,7 @@ export const siteContent: SiteContent = {
     },
     experience: { en: 'Experience', ru: 'Опыт работы' },
     expertise: { en: 'Engineering expertise', ru: 'Инженерные компетенции' },
+    workflow: { en: 'AI agents & Unity MCP', ru: 'AI-агенты и Unity MCP' },
     education: { en: 'Education & languages', ru: 'Образование и языки' },
   },
   sectionKickers: {
@@ -46,8 +48,9 @@ export const siteContent: SiteContent = {
     demos: { en: '02 / Demos', ru: '02 / Демо' },
     experience: { en: '03 / Experience', ru: '03 / Опыт' },
     expertise: { en: '04 / Expertise', ru: '04 / Компетенции' },
-    education: { en: '05 / Education', ru: '05 / Образование' },
-    contact: { en: '06 / Contact', ru: '06 / Контакты' },
+    workflow: { en: '05 / Tooling', ru: '05 / Tooling' },
+    education: { en: '06 / Education', ru: '06 / Образование' },
+    contact: { en: '07 / Contact', ru: '07 / Контакты' },
   },
   heroPanel: {
     platforms: 'Mobile · PC · WebGL',
@@ -165,6 +168,37 @@ export const siteContent: SiteContent = {
       ],
     },
   ],
+  workflow: {
+    title: { en: 'AI agents & Unity MCP', ru: 'AI-агенты и Unity MCP' },
+    intro: {
+      en: 'When the task fits, I use AI agents and Unity MCP as a force multiplier—not as a default for every day. Architecture, networking, and ship decisions stay with me.',
+      ru: 'Когда задача подходит, подключаю AI-агентов и Unity MCP как усиление — не как ежедневный default. Архитектура, сеть и релизные решения остаются за мной.',
+    },
+    practices: [
+      {
+        title: { en: 'Cursor agents on real tasks', ru: 'Cursor-агенты на реальных задачах' },
+        description: {
+          en: 'Writing documentation, searching for legacy code, analyzing implementation errors of SDKs, refactoring, and second-pass review. I keep system design, gameplay feel,  and decision about merge ownership.',
+          ru: 'Написание документации, поиск по легаси, анализ ошибок имплементации SDK, рефакторинг и второй проход review. Архитектура, геймплейный feel и решение о merge остаётся за мной.',
+        },
+      },
+      {
+        title: { en: 'Unity MCP as Editor context', ru: 'Unity MCP как контекст Editor' },
+        description: {
+          en: 'MCP bridges the agent to a live Editor: hierarchy, console, compile errors, scene and asset ops—not file-only guesses.',
+          ru: 'MCP даёт агенту живой Editor: hierarchy, console, ошибки компиляции, операции со сценой и ассетами — не догадки только по файлам.',
+        },
+      },
+      {
+        title: { en: 'Verify loops, not vibe coding', ru: 'Циклы проверки, не vibe coding' },
+        description: {
+          en: 'Propose → compile / inspect via MCP → fix → re-check. Agents accelerate the loop; the engineer still ships the change.',
+          ru: 'Предложить → скомпилировать / проверить через MCP → поправить → перепроверить. Агент ускоряет цикл; релиз изменений — за инженером.',
+        },
+      },
+    ],
+    tools: ['Cursor', 'AI Agents', 'Unity MCP', 'MCP Clients', 'Editor Bridge', 'Compile Verify'],
+  },
   education: {
     degree: { en: 'Bachelor of Engineering — Automation Engineer', ru: 'Бакалавр инженерных наук — Инженер по автоматизации' },
     university: { en: 'Vitebsk State Technological University', ru: 'Витебский государственный технологический университет' },

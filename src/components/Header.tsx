@@ -21,6 +21,7 @@ export function Header({ locale, onToggleLocale }: HeaderProps) {
     ['work', content.nav.work],
     ['experience', content.nav.experience],
     ['expertise', content.nav.expertise],
+    ['aimcp', content.nav.aimcp],
     ['contact', content.nav.contact],
   ] as const
 

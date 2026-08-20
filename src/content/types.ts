@@ -53,6 +53,12 @@ export interface SiteContent {
   }
   experience: Experience[]
   expertise: Array<{ icon: 'gameplay' | 'live' | 'performance'; title: LocalizedText; description: LocalizedText; tags: string[] }>
+  workflow: {
+    title: LocalizedText
+    intro: LocalizedText
+    practices: Array<{ title: LocalizedText; description: LocalizedText }>
+    tools: string[]
+  }
   education: {
     degree: LocalizedText
     university: LocalizedText

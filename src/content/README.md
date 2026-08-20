@@ -30,11 +30,15 @@ The downloadable PDF lives in `assets/cv/`. Its reference is the `cv` field in `
 
 General site copy is in `site.ts`. Every visitor-facing text value uses `{ en, ru }`. English is the default; the selected locale is saved in local storage.
 
-## Experience, demos, and contacts
+## Experience, demos, workflow, and contacts
 
 - Experience entries in `site.ts` may have an optional `website` object with the same
   `{ kind, label, url }` shape as project links.
 - The `youtube` record controls the demo section: update `url` and `embedUrl` together.
+- The `workflow` record drives the AI agents / Unity MCP section: bilingual intro, practice
+  items (`title` + `description`), and a `tools` tag list. Frame it as optional tooling
+  when the task fits—not as the default everyday process. Keep architecture and ship
+  decisions human-owned.
 - `contact.primary` is the main contact card (Telegram); `contact.socials` contains the
   secondary Email, LinkedIn, and GitHub cards. Keep the Telegram `value` visible as a
   handle so visitors can copy it without opening the link.
