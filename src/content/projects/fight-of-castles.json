@@ -1,31 +1,52 @@
 {
   "id": "fight-of-castles",
   "order": 2,
-  "title": { "en": "Fight of Castles", "ru": "Fight of Castles" },
-  "period": { "en": "Commercial project", "ru": "Коммерческий проект" },
+  "title": {
+    "en": "Fight of Castles",
+    "ru": "Fight of Castles"
+  },
+  "period": {
+    "en": "Team · Commercial",
+    "ru": "Команда · Коммерческий"
+  },
   "summary": {
-    "en": "Performance-focused Android strategy game engineering, stabilizing play on low-end devices at 30+ FPS.",
-    "ru": "Оптимизация Android-стратегии с достижением стабильных 30+ FPS на слабых устройствах."
+    "en": "Android strategy game in a team setting. Focused on performance so low-end devices stay at a stable 30+ FPS.",
+    "ru": "Android-стратегия в команде. Фокус на производительности: стабильные 30+ FPS на слабых устройствах."
   },
   "contributions": {
     "en": [
       "Applied LOD, refactoring, and Coroutine/Async improvements for stable 30+ FPS.",
       "Implemented A* pathfinding and integrated Firebase Analytics and AdMob.",
-      "Found and fixed memory leaks using Unity Memory Profiler."
+      "Found and fixed memory leaks with Unity Memory Profiler."
     ],
     "ru": [
       "Применил LOD, рефакторинг и улучшения Coroutine/Async для стабильных 30+ FPS.",
-      "Реализовал A* и интегрировал Firebase Analytics и AdMob.",
-      "Нашёл и устранил утечки памяти с помощью Unity Memory Profiler."
+      "Реализовал A* и подключил Firebase Analytics и AdMob.",
+      "Нашёл и устранил утечки памяти через Unity Memory Profiler."
     ]
   },
-  "technologies": ["C#", "Unity", "A*", "Firebase Analytics", "AdMob", "Memory Profiler"],
-  "platforms": ["Android"],
+  "technologies": [
+    "C#",
+    "Unity",
+    "A*",
+    "Firebase Analytics",
+    "AdMob",
+    "Memory Profiler",
+    "LOD",
+    "Coroutines",
+    "Async"
+  ],
+  "platforms": [
+    "Android"
+  ],
   "artwork": "./assets/projects/fight-of-castles.png",
   "links": [
     {
       "kind": "googlePlay",
-      "label": { "en": "Google Play", "ru": "Google Play" },
+      "label": {
+        "en": "Google Play",
+        "ru": "Google Play"
+      },
       "url": "https://play.google.com/store/apps/details?id=com.HakiGames.FightofCastles&hl=en"
     }
   ]

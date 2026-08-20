@@ -6,12 +6,12 @@
     "ru": "The Hidden Library"
   },
   "period": {
-    "en": "Commercial project",
-    "ru": "Коммерческий проект"
+    "en": "Team · Commercial",
+    "ru": "Команда · Коммерческий"
   },
   "summary": {
-    "en": "A point-and-click adventure built from core interactions through progression, authored levels, mini-games, and character animation.",
-    "ru": "Point-and-click приключение: от базовых взаимодействий до прогрессии, уровней, мини-игр и анимации персонажей."
+    "en": "Point-and-click adventure built in a team—from core interactions through progression, authored levels, mini-games, and character animation.",
+    "ru": "Point-and-click приключение в команде: от базовых взаимодействий до прогрессии, уровней, мини-игр и анимации персонажей."
   },
   "contributions": {
     "en": [
@@ -20,15 +20,18 @@
       "Integrated Spine 2D animation into the production pipeline."
     ],
     "ru": [
-      "Разработал основные point-and-click системы, инвентарь, переходы сцен и прогрессию.",
-      "Реализовал четыре уровня и несколько мини-игр.",
-      "Интегрировал Spine 2D в производственный процесс."
+      "Собрал основные point-and-click системы, инвентарь, переходы сцен и прогрессию.",
+      "Сделал четыре уровня и несколько мини-игр.",
+      "Подключил Spine 2D в производственный процесс."
     ]
   },
   "technologies": [
     "C#",
     "Unity",
-    "Spine 2D"
+    "Spine 2D",
+    "Inventory",
+    "Scene flow",
+    "Progression"
   ],
   "platforms": [
     "PC",

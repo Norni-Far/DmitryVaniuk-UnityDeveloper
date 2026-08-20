@@ -1,31 +1,48 @@
 {
   "id": "nft-holders",
   "order": 5,
-  "title": { "en": "Mintton", "ru": "Mintton" },
-  "period": { "en": "Commercial project", "ru": "Коммерческий проект" },
+  "title": {
+    "en": "Mintton",
+    "ru": "Mintton"
+  },
+  "period": {
+    "en": "Team · Commercial",
+    "ru": "Команда · Коммерческий"
+  },
   "summary": {
-    "en": "A WebGL game engagement focused on recovering a legacy codebase and connecting gameplay outcomes to secure Web3 flows.",
-    "ru": "WebGL-проект с фокусом на восстановлении legacy-кода и интеграции игровых результатов с Web3-процессами."
+    "en": "WebGL engagement project in a team: cleaned up legacy code and connected gameplay results to Web3 flows.",
+    "ru": "WebGL-проект в команде: навёл порядок в legacy-коде и связал игровые результаты с Web3."
   },
   "contributions": {
     "en": [
-      "Refactored legacy systems and resolved inherited defects.",
+      "Refactored legacy systems and fixed inherited defects.",
       "Implemented server-provided winning combinations and prizes.",
       "Integrated wallet authentication and blockchain transactions with Thirdweb."
     ],
     "ru": [
-      "Провёл рефакторинг legacy-систем и устранил унаследованные дефекты.",
-      "Реализовал получение выигрышных комбинаций и призов с сервера.",
-      "Интегрировал авторизацию кошелька и blockchain-транзакции через Thirdweb."
+      "Отрефакторил legacy-системы и закрыл унаследованные дефекты.",
+      "Сделал получение выигрышных комбинаций и призов с сервера.",
+      "Подключил авторизацию кошелька и blockchain-транзакции через Thirdweb."
     ]
   },
-  "technologies": ["C#", "Unity", "WebGL", "Thirdweb"],
-  "platforms": ["WebGL"],
+  "technologies": [
+    "C#",
+    "Unity",
+    "WebGL",
+    "Thirdweb",
+    "Wallet auth"
+  ],
+  "platforms": [
+    "WebGL"
+  ],
   "artwork": "./assets/projects/nft-holders.png",
   "links": [
     {
       "kind": "youtube",
-      "label": { "en": "Watch demo", "ru": "Смотреть демо" },
+      "label": {
+        "en": "Watch demo",
+        "ru": "Смотреть демо"
+      },
       "url": "https://www.youtube.com/watch?v=rsS-9hqxG6I&list=PLjwWjcNak-vADGGtZnLkeD9Goow8hOl4s&index=20"
     }
   ]

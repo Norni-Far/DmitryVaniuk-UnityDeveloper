@@ -18,30 +18,32 @@ export const siteContent: SiteContent = {
     eyebrow: { en: 'C# / Unity Developer · Belarus · Open to remote', ru: 'C# / Unity-разработчик · Беларусь · Открыт к удалённой работе' },
     title: { en: 'I build reliable game systems that ship.', ru: 'Создаю игровые системы, готовые к релизу.' },
     summary: {
-      en: 'Unity developer with 4+ years delivering mobile, PC Steam, and WebGL products—from gameplay architecture and live services to profiling and platform integrations.',
-      ru: 'Unity-разработчик с опытом более 4 лет в мобильных, PC Steam и WebGL-проектах: от игровой архитектуры и live-сервисов до профилирования и платформенных интеграций.',
+      en: 'Unity developer with 4+ years on mobile, PC Steam, and WebGL. I build games and live products from scratch—solo or in a team—covering gameplay systems, live services, profiling, and platform integrations.',
+      ru: 'Unity-разработчик с опытом более 4 лет: мобильные, PC Steam и WebGL. Собираю игры и live-продукты с нуля — один или в команде: геймплейные системы, live-сервисы, профилирование и платформенные интеграции.',
     },
     availability: { en: 'Available for Unity opportunities', ru: 'Рассматриваю предложения по Unity-разработке' },
   },
   metrics: [
     { value: '4+', label: { en: 'years in Unity', ru: 'года в Unity' } },
-    { value: '4', label: { en: 'release platforms', ru: 'платформы релиза' } },
-    { value: '30+', label: { en: 'FPS on low-end Android', ru: 'FPS на слабых Android' } },
     { value: '5', label: { en: 'selected products', ru: 'избранных проектов' } },
     { value: '20+', label: { en: 'gameplay videos on YouTube', ru: 'геймплей-видео на YouTube' } },
+    { value: 'Solo+Team', label: { en: 'delivery modes', ru: 'форматы работы' } },
   ],
   sectionTitles: {
     work: { en: 'Selected work', ru: 'Избранные проекты' },
-    workIntro: { en: 'Products shaped through systems thinking, careful delivery, and measurable outcomes.', ru: 'Продукты, созданные благодаря системному мышлению, аккуратной реализации и измеримым результатам.' },
+    workIntro: {
+      en: 'Commercial titles built from scratch or taken through release—solo and in a team.',
+      ru: 'Коммерческие проекты: с нуля или до релиза — один и в команде.',
+    },
     experience: { en: 'Experience', ru: 'Опыт работы' },
     expertise: { en: 'Engineering expertise', ru: 'Инженерные компетенции' },
     education: { en: 'Education & languages', ru: 'Образование и языки' },
   },
   sectionKickers: {
     work: { en: '01 / Work', ru: '01 / Проекты' },
-    experience: { en: '02 / Journey', ru: '02 / Путь' },
-    expertise: { en: '03 / Toolkit', ru: '03 / Инструменты' },
-    education: { en: '04 / Foundation', ru: '04 / Основа' },
+    experience: { en: '02 / Experience', ru: '02 / Опыт' },
+    expertise: { en: '03 / Expertise', ru: '03 / Компетенции' },
+    education: { en: '04 / Education', ru: '04 / Образование' },
     contact: { en: '05 / Contact', ru: '05 / Контакты' },
   },
   heroPanel: {
@@ -54,27 +56,60 @@ export const siteContent: SiteContent = {
       company: { en: 'Celadon Wolves · Contract', ru: 'Celadon Wolves · Контракт' },
       role: { en: 'Unity Developer', ru: 'Unity-разработчик' },
       period: { en: 'Feb 2025 — Mar 2026', ru: 'Фев 2025 — Мар 2026' },
-      description: { en: 'Owned client and backend-facing features for a confidential live card game, including FTUE, authentication, social systems, progression, and realtime data.', ru: 'Отвечал за клиентские и backend-интегрированные функции конфиденциальной live-карточной игры: FTUE, авторизацию, социальные системы, прогрессию и realtime-данные.' },
+      description: {
+        en: 'Team role on a live card game. Owned client and backend-facing features: FTUE, authentication, social systems, progression, and realtime data.',
+        ru: 'Командная работа над live-карточной игрой. Отвечал за клиентские и backend-связанные функции: FTUE, авторизацию, социальные системы, прогрессию и realtime-данные.',
+      },
       website: { kind: 'website', label: { en: 'Celadon Wolves', ru: 'Celadon Wolves' }, url: 'https://celadonwolves.com/' },
     },
     {
       company: { en: 'UMD Persum', ru: 'UMD Persum' },
       role: { en: 'Unity Developer', ru: 'Unity-разработчик' },
       period: { en: 'Jul 2022 — Feb 2025', ru: 'Июл 2022 — Фев 2025' },
-      description: { en: 'Developed and optimized commercial Unity products across Android, iOS, PC Steam, and WebGL.', ru: 'Разрабатывал и оптимизировал коммерческие Unity-продукты для Android, iOS, PC Steam и WebGL.' },
+      description: {
+        en: 'Team development of commercial Unity products for Android, iOS, PC Steam, and WebGL—from new features to performance work.',
+        ru: 'Командная разработка коммерческих Unity-продуктов для Android, iOS, PC Steam и WebGL — от новых функций до оптимизации.',
+      },
       website: { kind: 'website', label: { en: 'UMD Persum', ru: 'UMD Persum' }, url: 'https://umdpersum.co.il/' },
     },
     {
       company: { en: 'School of Programming & Robotics', ru: 'Школа программирования и робототехники' },
       role: { en: 'Lecturer → Senior Lecturer', ru: 'Преподаватель → Старший преподаватель' },
       period: { en: 'Aug 2021 — Jul 2022', ru: 'Авг 2021 — Июл 2022' },
-      description: { en: 'Taught C#, C++, HTML/CSS, Unity, and robotics to students aged 8–15; promoted after six months for teaching quality and student results.', ru: 'Преподавал C#, C++, HTML/CSS, Unity и робототехнику ученикам 8–15 лет; через полгода повышен за качество преподавания и результаты учеников.' },
+      description: {
+        en: 'Taught C#, C++, HTML/CSS, Unity, and robotics to students aged 8–15. Promoted after six months for teaching quality and student results.',
+        ru: 'Преподавал C#, C++, HTML/CSS, Unity и робототехнику ученикам 8–15 лет. Через полгода повышен за качество преподавания и результаты учеников.',
+      },
     },
   ],
   expertise: [
-    { icon: 'gameplay', title: { en: 'Gameplay & architecture', ru: 'Геймплей и архитектура' }, description: { en: 'Maintainable systems, progression, UI flows, inventory, scene management, and event-driven design.', ru: 'Поддерживаемые системы, прогрессия, UI-потоки, инвентарь, управление сценами и событийная архитектура.' }, tags: ['C#', 'Unity', 'SOLID', 'Async', 'Coroutines'] },
-    { icon: 'live', title: { en: 'Live services', ru: 'Live-сервисы' }, description: { en: 'Authentication, realtime state, messaging, analytics, notifications, remote data, and resilient API integration.', ru: 'Авторизация, realtime-состояние, сообщения, аналитика, уведомления, удалённые данные и надёжная API-интеграция.' }, tags: ['Firebase', 'Nakama', 'REST', 'Sentry', 'OneSignal'] },
-    { icon: 'performance', title: { en: 'Performance & platforms', ru: 'Производительность и платформы' }, description: { en: 'Profiling, leak diagnosis, LOD, low-end mobile optimization, and cross-platform release constraints.', ru: 'Профилирование, поиск утечек, LOD, оптимизация слабых устройств и ограничения кроссплатформенных релизов.' }, tags: ['Android', 'iOS', 'Steam', 'WebGL', 'Memory Profiler'] },
+    {
+      icon: 'gameplay',
+      title: { en: 'Gameplay & architecture', ru: 'Геймплей и архитектура' },
+      description: {
+        en: 'Clear, maintainable gameplay systems: progression, UI flows, inventory, scene management, and event-driven structure.',
+        ru: 'Понятные и поддерживаемые геймплейные системы: прогрессия, UI-потоки, инвентарь, управление сценами и событийная структура.',
+      },
+      tags: ['C#', 'Unity', 'SOLID', 'Async', 'Coroutines', 'Spine 2D', 'A*', 'Inventory', 'Scene management', 'Localization'],
+    },
+    {
+      icon: 'live',
+      title: { en: 'Live services', ru: 'Live-сервисы' },
+      description: {
+        en: 'Auth, realtime state, messaging, analytics, push notifications, remote data, and stable API integration.',
+        ru: 'Авторизация, realtime-состояние, сообщения, аналитика, push-уведомления, удалённые данные и стабильная API-интеграция.',
+      },
+      tags: ['Firebase', 'Nakama', 'REST', 'Sentry', 'OneSignal', 'Auth', 'Push deep links', 'Analytics', 'Season Pass'],
+    },
+    {
+      icon: 'performance',
+      title: { en: 'Performance & platforms', ru: 'Производительность и платформы' },
+      description: {
+        en: 'Profiling, memory leaks, LOD, low-end mobile tuning, and release constraints across Android, iOS, Steam, and WebGL.',
+        ru: 'Профилирование, утечки памяти, LOD, оптимизация слабых устройств и ограничения релиза на Android, iOS, Steam и WebGL.',
+      },
+      tags: ['Memory Profiler', 'LOD', 'Android', 'iOS', 'Steam', 'WebGL', 'AdMob', 'Thirdweb'],
+    },
   ],
   education: {
     degree: { en: 'Bachelor of Engineering — Automation Engineer', ru: 'Бакалавр инженерных наук — Инженер по автоматизации' },
@@ -87,8 +122,11 @@ export const siteContent: SiteContent = {
     { name: { en: 'Belarusian', ru: 'Белорусский' } },
   ],
   contact: {
-    title: { en: 'Let’s build something dependable.', ru: 'Давайте создадим надёжный продукт.' },
-    description: { en: 'For Unity roles, contract work, or a technical conversation, Telegram is the fastest way to reach me.', ru: 'По вопросам Unity-разработки, контрактной работы или технического общения быстрее всего связаться со мной в Telegram.' },
+    title: { en: 'Let’s build something dependable.', ru: 'Давайте сделаем надёжный продукт.' },
+    description: {
+      en: 'For Unity roles, contract work, or a technical talk, Telegram is the fastest way to reach me.',
+      ru: 'По Unity-ролям, контракту или техническому разговору быстрее всего писать в Telegram.',
+    },
     primary: { label: { en: 'Telegram', ru: 'Telegram' }, value: '@DorniParser', url: 'https://t.me/DorniParser', responseNote: { en: 'Fastest response', ru: 'Самый быстрый ответ' } },
     socials: [
       { kind: 'email', label: { en: 'Email', ru: 'Email' }, value: 'the.somnium.project.games@gmail.com', url: 'mailto:the.somnium.project.games@gmail.com' },
@@ -98,7 +136,10 @@ export const siteContent: SiteContent = {
   },
   youtube: {
     title: { en: 'Development playlist', ru: 'Плейлист разработки' },
-    description: { en: 'A short look at selected gameplay and development work.', ru: 'Короткий обзор избранных игровых и технических работ.' },
+    description: {
+      en: 'Selected gameplay and development clips from recent work.',
+      ru: 'Избранные геймплей- и dev-ролики из недавних проектов.',
+    },
     embedUrl: 'https://www.youtube-nocookie.com/embed/67yIC8vQZfk?list=PLjwWjcNak-vADGGtZnLkeD9Goow8hOl4s&rel=0',
     url: 'https://www.youtube.com/watch?v=67yIC8vQZfk&list=PLjwWjcNak-vADGGtZnLkeD9Goow8hOl4s',
     fallbackLabel: { en: 'Open playlist on YouTube', ru: 'Открыть плейлист на YouTube' },

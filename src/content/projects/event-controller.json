@@ -1,36 +1,60 @@
 {
   "id": "event-controller",
   "order": 4,
-  "title": { "en": "Stugi", "ru": "Stugi" },
-  "period": { "en": "Commercial project", "ru": "Коммерческий проект" },
+  "title": {
+    "en": "Stugi",
+    "ru": "Stugi"
+  },
+  "period": {
+    "en": "Solo · Commercial",
+    "ru": "Solo · Коммерческий"
+  },
   "summary": {
-    "en": "Cross-platform live-event control app connecting hosts and clients through QR-driven sessions and synchronized media.",
-    "ru": "Кроссплатформенное приложение для управления live-событиями: QR-сессии и синхронизация медиа между ведущим и клиентами."
+    "en": "Cross-platform live-event control app built from scratch solo. Connects hosts and clients through QR sessions and synchronized media.",
+    "ru": "Кроссплатформенное приложение для управления live-событиями — с нуля, в соло. Связывает ведущего и клиентов через QR-сессии и синхронизацию медиа."
   },
   "contributions": {
     "en": [
-      "Built QR-based live event control and host-client REST communication.",
+      "Built QR-based live event control and host–client REST communication.",
       "Implemented cross-platform file management and byte-array synchronization.",
       "Integrated YouTube SDK workflows for iOS and Android."
     ],
     "ru": [
-      "Разработал QR-управление live-событиями и REST-взаимодействие ведущего с клиентами.",
-      "Реализовал кроссплатформенную работу с файлами и синхронизацию byte array.",
-      "Интегрировал YouTube SDK для iOS и Android."
+      "Собрал QR-управление live-событиями и REST-связь ведущего с клиентами.",
+      "Сделал кроссплатформенную работу с файлами и синхронизацию byte array.",
+      "Подключил YouTube SDK для iOS и Android."
     ]
   },
-  "technologies": ["C#", "Unity", "REST", "YouTube SDK"],
-  "platforms": ["iOS", "Android"],
+  "technologies": [
+    "C#",
+    "Unity",
+    "REST",
+    "YouTube SDK",
+    "QR sessions",
+    "File sync",
+    "iOS",
+    "Android"
+  ],
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
   "artwork": "./assets/projects/event-controller.png",
   "links": [
     {
       "kind": "googlePlay",
-      "label": { "en": "Google Play", "ru": "Google Play" },
+      "label": {
+        "en": "Google Play",
+        "ru": "Google Play"
+      },
       "url": "https://play.google.com/store/apps/details?id=com.SomniumProject.Stugi&hl=en"
     },
     {
       "kind": "appStore",
-      "label": { "en": "App Store", "ru": "App Store" },
+      "label": {
+        "en": "App Store",
+        "ru": "App Store"
+      },
       "url": "https://apps.apple.com/us/app/stugi/id6642673141"
     }
   ]
