@@ -6,12 +6,12 @@
     "ru": "Football 6-7"
   },
   "period": {
-    "en": "Team · Commercial",
-    "ru": "Команда · Коммерческий"
+    "en": "Team of 6–7 · Commercial",
+    "ru": "Команда 6–7 · Коммерческий"
   },
   "summary": {
-    "en": "Live-service football card game. Team role covering backend-facing client work, player onboarding, identity, social systems, progression, and realtime features.",
-    "ru": "Live-service футбольная карточная игра. Командная роль: клиент с backend-интеграциями, онбординг, идентификация, социальные системы, прогрессия и realtime-функции."
+    "en": "Live-service football card game in a team of 6–7. Owned backend-facing client work: onboarding, identity, social systems, progression, and realtime features.",
+    "ru": "Live-service футбольная карточная игра в команде из 6–7 человек. Клиент с backend-интеграциями: онбординг, идентификация, социальные системы, прогрессия и realtime."
   },
   "contributions": {
     "en": [

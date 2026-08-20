@@ -34,7 +34,6 @@ export interface SiteContent {
     role: LocalizedText
     location: LocalizedText
     timezone: string
-    footer: string
   }
   nav: Record<string, LocalizedText>
   hero: {

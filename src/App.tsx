@@ -13,7 +13,6 @@ function App() {
   const { locale, toggleLocale } = useLocale()
   const [showTop, setShowTop] = useState(false)
   const t = (value: Record<Locale, string>) => value[locale]
-  const currentYear = new Date().getFullYear()
 
   useEffect(() => {
     const update = () => setShowTop(window.scrollY > window.innerHeight * 0.7)
@@ -59,7 +58,7 @@ function App() {
 
         <section className="section demos-section" aria-labelledby="demos-title">
           <div className="container demos-layout">
-            <div className="demos-copy"><p className="section-number">01.5 / Demos <YoutubeIcon className="section-icon" /></p><h2 id="demos-title">{t(content.youtube.title)}</h2><p>{t(content.youtube.description)}</p><a className="button video-link" href={content.youtube.url} target="_blank" rel="noreferrer"><YoutubeIcon />{t(content.youtube.fallbackLabel)}<ExternalArrowIcon /></a></div>
+            <div className="demos-copy"><p className="section-number">{t(content.sectionKickers.demos)} <YoutubeIcon className="section-icon" /></p><h2 id="demos-title">{t(content.youtube.title)}</h2><p>{t(content.youtube.description)}</p><a className="button video-link" href={content.youtube.url} target="_blank" rel="noreferrer"><YoutubeIcon />{t(content.youtube.fallbackLabel)}<ExternalArrowIcon /></a></div>
             <div className="video-frame"><iframe title={t(content.youtube.title)} src={content.youtube.embedUrl} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen /></div>
           </div>
         </section>
@@ -76,7 +75,7 @@ function App() {
 
         <section className="contact-section" id="contact" aria-labelledby="contact-title"><div className="container contact-layout"><div><p className="section-number">{t(content.sectionKickers.contact)}</p><h2 id="contact-title">{t(content.contact.title)}</h2><p>{t(content.contact.description)}</p></div><div className="contact-actions"><a className="telegram-card" href={content.contact.primary.url} target="_blank" rel="noreferrer"><TelegramIcon /><div><span>{t(content.contact.primary.responseNote)}</span><strong>{content.contact.primary.value}</strong></div><ExternalArrowIcon /></a><div className="social-grid">{content.contact.socials.map((item) => { const Icon = socialIcons[item.kind]; return <a key={item.kind} className="social-card" href={item.url} target={item.kind === 'email' ? undefined : '_blank'} rel={item.kind === 'email' ? undefined : 'noreferrer'}><Icon /><div><span>{t(item.label)}</span><strong>{item.value}</strong></div></a> })}</div></div></div></section>
       </main>
-      <footer><div className="container footer-inner"><p>© {currentYear} {content.profile.name}. {t(content.labels.footerRights)}</p><p>{content.profile.footer}</p></div></footer>
+      <footer><div className="container footer-inner"><p>© 2022–2026 {content.profile.name}. {t(content.labels.footerRights)}</p></div></footer>
       <button className={showTop ? 'back-to-top is-visible' : 'back-to-top'} type="button" onClick={scrollTop} aria-label={t(content.labels.backToTop)}><UpArrowIcon /></button>
     </div>
   )

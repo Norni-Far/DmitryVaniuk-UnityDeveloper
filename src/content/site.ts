@@ -6,7 +6,6 @@ export const siteContent: SiteContent = {
     role: { en: 'C# Unity Developer', ru: 'C# Unity-разработчик' },
     location: { en: 'Belarus · Remote', ru: 'Беларусь · Удалённо' },
     timezone: 'UTC+3',
-    footer: 'C# · Unity · Developer',
   },
   nav: {
     work: { en: 'Work', ru: 'Проекты' },
@@ -15,19 +14,22 @@ export const siteContent: SiteContent = {
     contact: { en: 'Contact me', ru: 'Связаться со мной' },
   },
   hero: {
-    eyebrow: { en: 'C# / Unity Developer · Belarus · Open to remote', ru: 'C# / Unity-разработчик · Беларусь · Удалённо' },
+    eyebrow: {
+      en: 'C# / Unity Developer · Belarus · Open to remote',
+      ru: 'C# / Unity-разработчик · Беларусь · Открыт к удалённой работе',
+    },
     title: { en: 'I build reliable game systems that ship.', ru: 'Создаю игровые системы, готовые к релизу.' },
     summary: {
       en: 'Unity developer with 4+ years on mobile, PC Steam, and WebGL. I build games and live products from scratch—solo or in a team—covering gameplay systems, live services, profiling, and platform integrations.',
       ru: 'Unity-разработчик с опытом более 4 лет: мобильные, PC Steam и WebGL. Собираю игры и live-продукты с нуля — один или в команде: геймплейные системы, live-сервисы, профилирование и платформенные интеграции.',
     },
-    availability: { en: 'Online', ru: 'В сети' },
+    availability: { en: 'Open to full-time', ru: 'Открыт к штату' },
   },
   metrics: [
     { value: '4+', label: { en: 'years in Unity', ru: 'года в Unity' } },
-    { value: '5', label: { en: 'selected products', ru: 'избранных проектов' } },
-    { value: '20+', label: { en: 'gameplay videos on YouTube', ru: 'геймплей-видео на YouTube' } },
-    { value: 'Solo+Team', label: { en: 'delivery modes', ru: 'формат работы' } },
+    { value: '5', label: { en: 'shipped products', ru: 'релизов в портфолио' } },
+    { value: '3', label: { en: 'commercial storefronts', ru: 'коммерческие витрины' } },
+    { value: '4', label: { en: 'platforms shipped', ru: 'платформы в проде' } },
   ],
   sectionTitles: {
     work: { en: 'Selected work', ru: 'Избранные проекты' },
@@ -41,16 +43,17 @@ export const siteContent: SiteContent = {
   },
   sectionKickers: {
     work: { en: '01 / Work', ru: '01 / Проекты' },
-    experience: { en: '02 / Experience', ru: '02 / Опыт' },
-    expertise: { en: '03 / Expertise', ru: '03 / Компетенции' },
-    education: { en: '04 / Education', ru: '04 / Образование' },
-    contact: { en: '05 / Contact', ru: '05 / Контакты' },
+    demos: { en: '02 / Demos', ru: '02 / Демо' },
+    experience: { en: '03 / Experience', ru: '03 / Опыт' },
+    expertise: { en: '04 / Expertise', ru: '04 / Компетенции' },
+    education: { en: '05 / Education', ru: '05 / Образование' },
+    contact: { en: '06 / Contact', ru: '06 / Контакты' },
   },
   heroPanel: {
     platforms: 'Mobile · PC · WebGL',
     stack: 'C# · Unity',
     focus: { en: 'Core gameplay · Live ops', ru: 'Ядро геймплея · Live ops' },
-    mode: { en: 'Full-time · Contract · Project', ru: 'Полная занятость · Контракт · Проект' },
+    mode: { en: 'Full-time · Contract · Project', ru: 'Штат · Контракт · Проект' },
   },
   experience: [
     {
@@ -58,8 +61,8 @@ export const siteContent: SiteContent = {
       role: { en: 'Unity Developer', ru: 'Unity-разработчик' },
       period: { en: 'Feb 2025 — Mar 2026', ru: 'Фев 2025 — Мар 2026' },
       description: {
-        en: 'Team role on a live card game. Owned client and backend-facing features: FTUE, authentication, social systems, progression, and realtime data.',
-        ru: 'Командная работа над live-карточной игрой. Отвечал за клиентские и backend-связанные функции: FTUE, авторизацию, социальные системы, прогрессию и realtime-данные.',
+        en: 'Contract role on a live card game in a team of 6–7. Owned client and backend-facing features: FTUE, authentication, social systems, progression, and realtime data.',
+        ru: 'Контракт в live-карточной игре, команда 6–7 человек. Клиент и backend-связанные функции: FTUE, авторизация, социальные системы, прогрессия и realtime-данные.',
       },
       website: { kind: 'website', label: { en: 'Celadon Wolves', ru: 'Celadon Wolves' }, url: 'https://celadonwolves.com/' },
     },
@@ -188,8 +191,8 @@ export const siteContent: SiteContent = {
   youtube: {
     title: { en: 'Development playlist', ru: 'Плейлист разработки' },
     description: {
-      en: 'Selected gameplay and development clips from recent work.',
-      ru: 'Избранные геймплей- и dev-ролики из недавних проектов.',
+      en: 'Gameplay and development clips from shipped projects.',
+      ru: 'Геймплей и dev-ролики с релизных проектов.',
     },
     embedUrl: 'https://www.youtube-nocookie.com/embed/67yIC8vQZfk?list=PLjwWjcNak-vADGGtZnLkeD9Goow8hOl4s&rel=0',
     url: 'https://www.youtube.com/watch?v=67yIC8vQZfk&list=PLjwWjcNak-vADGGtZnLkeD9Goow8hOl4s',
