@@ -1,8 +1,14 @@
 {
   "id": "confidential-card-game",
   "order": 1,
-  "title": { "en": "Football 6-7", "ru": "Football 6-7" },
-  "period": { "en": "Commercial project", "ru": "Коммерческий проект" },
+  "title": {
+    "en": "Football 6-7",
+    "ru": "Football 6-7"
+  },
+  "period": {
+    "en": "Commercial project",
+    "ru": "Коммерческий проект"
+  },
   "summary": {
     "en": "Live-service card game work spanning backend ownership, player onboarding, identity, social systems, progression, and realtime product surfaces.",
     "ru": "Live-service карточная игра: backend-зона ответственности, онбординг, идентификация, социальные системы, прогрессия и realtime-интерфейсы."
@@ -21,13 +27,26 @@
       "Спроектировал архитектуру профиля, настроек, рейтинга, UI и аудио."
     ]
   },
-  "technologies": ["C#", "Unity", "Nakama", "Firebase", "Sentry", "OneSignal", "Unity Localization"],
-  "platforms": ["Android"],
-  "artwork": "./assets/projects/confidential-card-game.svg",
+  "technologies": [
+    "C#",
+    "Unity",
+    "Nakama",
+    "Firebase",
+    "Sentry",
+    "OneSignal",
+    "Unity Localization"
+  ],
+  "platforms": [
+    "Android"
+  ],
+  "artwork": "./assets/projects/confidential-card-game.png",
   "links": [
     {
       "kind": "googlePlay",
-      "label": { "en": "Google Play", "ru": "Google Play" },
+      "label": {
+        "en": "Google Play",
+        "ru": "Google Play"
+      },
       "url": "https://play.google.com/store/apps/details?id=com.celadonwolves.heroesofthepitch"
     }
   ]
