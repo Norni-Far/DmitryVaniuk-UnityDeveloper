@@ -23,7 +23,7 @@ export const siteContent: SiteContent = {
       en: 'Unity developer with 4+ years on mobile, PC Steam, and WebGL. I build games and live products from scratch—solo or in a team—covering gameplay systems, live services, profiling, and platform integrations.',
       ru: 'Unity-разработчик с опытом более 4 лет: мобильные, PC Steam и WebGL. Собираю игры и live-продукты с нуля — один или в команде: геймплейные системы, live-сервисы, профилирование и платформенные интеграции.',
     },
-    availability: { en: 'Open to full-time', ru: 'Открыт к штату' },
+    availability: { en: 'Open to opportunities', ru: 'Открыт к предложениям' },
   },
   metrics: [
     { value: '4+', label: { en: 'years in Unity', ru: 'года в Unity' } },
