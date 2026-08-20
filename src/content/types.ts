@@ -47,6 +47,7 @@ export interface SiteContent {
   sectionTitles: Record<string, LocalizedText>
   sectionKickers: Record<string, LocalizedText>
   heroPanel: {
+    platforms: string
     stack: string
     focus: LocalizedText
     mode: LocalizedText

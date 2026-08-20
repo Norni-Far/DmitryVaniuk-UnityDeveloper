@@ -16,13 +16,13 @@
   "contributions": {
     "en": [
       "Owned Firebase rules, indexes, access strategy, and environment configuration.",
-      "Built Nakama match state and chat, full FTUE, authentication, sessions, and account linking.",
+      "Implemented full FTUE, authentication (Firebase Auth + social providers), sessions, and account linking.",
       "Shipped push deep links, CRUD Mail Center, Season Pass, and a paginated realtime leaderboard.",
       "Structured profile, settings, ranking UI, and audio architecture."
     ],
     "ru": [
       "Отвечал за Firebase Rules, индексы, стратегию доступа и конфигурацию окружений.",
-      "Собрал match state и чат на Nakama, полный FTUE, авторизацию, сессии и привязку аккаунтов.",
+      "Сделал полный FTUE, авторизацию (Firebase Auth + соцпровайдеры), сессии и привязку аккаунтов.",
       "Сделал push deep links, CRUD Mail Center, Season Pass и realtime-лидерборд с пагинацией.",
       "Выстроил архитектуру профиля, настроек, рейтинга, UI и аудио."
     ]

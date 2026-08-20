@@ -44,7 +44,7 @@ function App() {
               <div className="availability"><span />{t(content.hero.availability)}</div>
               <div className="code-window" aria-hidden="true">
                 <div className="code-top"><i /><i /><i /></div>
-                <pre><code><b>public</b> <em>sealed class</em> Developer{'\n'}{'{'}{'\n'}  Stack = <q>{content.heroPanel.stack}</q>;{'\n'}  Focus = <q>{t(content.heroPanel.focus)}</q>;{'\n'}  Mode = <q>{t(content.heroPanel.mode)}</q>;{'\n'}{'}'}</code></pre>
+                <pre><code><b>public</b> <em>sealed class</em> Developer{'\n'}{'{'}{'\n'}  Stack = <q>{content.heroPanel.stack}</q>;{'\n'}  Platforms = <q>{content.heroPanel.platforms}</q>;{'\n'}  Focus = <q>{t(content.heroPanel.focus)}</q>;{'\n'}  Mode = <q>{t(content.heroPanel.mode)}</q>;{'\n'}{'}'}</code></pre>
               </div>
               <p className="hero-location">{content.profile.timezone} <span>•</span> {t(content.profile.location)}</p>
             </aside>
