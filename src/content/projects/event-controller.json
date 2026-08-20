@@ -21,7 +21,7 @@
   },
   "technologies": ["C#", "Unity", "REST", "YouTube SDK"],
   "platforms": ["iOS", "Android"],
-  "artwork": "./assets/projects/event-controller.svg",
+  "artwork": "./assets/projects/event-controller.png",
   "links": [
     {
       "kind": "googlePlay",

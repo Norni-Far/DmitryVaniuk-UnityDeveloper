@@ -21,7 +21,7 @@
   },
   "technologies": ["C#", "Unity", "WebGL", "Thirdweb"],
   "platforms": ["WebGL"],
-  "artwork": "./assets/projects/nft-holders.svg",
+  "artwork": "./assets/projects/nft-holders.png",
   "links": [
     {
       "kind": "youtube",
