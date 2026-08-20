@@ -28,8 +28,8 @@ export const siteContent: SiteContent = {
   metrics: [
     { value: '4+', label: { en: 'years in Unity', ru: 'года в Unity' } },
     { value: '5', label: { en: 'shipped products', ru: 'релизов в портфолио' } },
-    { value: '3', label: { en: 'commercial storefronts', ru: 'коммерческие витрины' } },
-    { value: '4', label: { en: 'platforms shipped', ru: 'платформы в проде' } },
+    { value: '20+', label: { en: 'gameplay demo videos', ru: 'геймплей-демо на видео' } },
+    { value: 'Solo+Team', label: { en: 'delivery', ru: 'формат работы' } },
   ],
   sectionTitles: {
     work: { en: 'Selected work', ru: 'Избранные проекты' },
