@@ -15,7 +15,7 @@ export const siteContent: SiteContent = {
     contact: { en: 'Contact me', ru: 'Связаться со мной' },
   },
   hero: {
-    eyebrow: { en: 'C# / Unity Developer · Belarus · Open to remote', ru: 'C# / Unity-разработчик · Беларусь · Открыт к удалённой работе' },
+    eyebrow: { en: 'C# / Unity Developer · Belarus · Open to remote', ru: 'C# / Unity-разработчик · Беларусь · Удалённо' },
     title: { en: 'I build reliable game systems that ship.', ru: 'Создаю игровые системы, готовые к релизу.' },
     summary: {
       en: 'Unity developer with 4+ years on mobile, PC Steam, and WebGL. I build games and live products from scratch—solo or in a team—covering gameplay systems, live services, profiling, and platform integrations.',
@@ -173,12 +173,12 @@ export const siteContent: SiteContent = {
     { name: { en: 'Belarusian', ru: 'Белорусский' } },
   ],
   contact: {
-    title: { en: 'Let’s build something dependable.', ru: 'Давайте сделаем надёжный продукт.' },
+    title: { en: "Let's build something\ndependable.", ru: 'Давайте сделаем\nнадёжный продукт.' },
     description: {
       en: 'For Unity roles, contract work, or a technical talk, Telegram is the fastest way to reach me.',
       ru: 'По Unity-ролям, контракту или техническому разговору быстрее всего связаться со мной через Telegram.',
     },
-    primary: { label: { en: 'Telegram', ru: 'Telegram' }, value: '@DorniParser', url: 'https://t.me/DorniParser', responseNote: { en: 'Preferred contact', ru: 'Приоритетный контакт' } },
+    primary: { label: { en: 'Telegram', ru: 'Telegram' }, value: '@DorniParser', url: 'https://t.me/DorniParser', responseNote: { en: 'Preferred contact', ru: 'Приоритетный канал для связи' } },
     socials: [
       { kind: 'email', label: { en: 'Email', ru: 'Email' }, value: 'the.somnium.project.games@gmail.com', url: 'mailto:the.somnium.project.games@gmail.com' },
       { kind: 'linkedin', label: { en: 'LinkedIn', ru: 'LinkedIn' }, value: 'linkedin.com/in/dorniparser', url: 'https://www.linkedin.com/in/dorniparser/' },

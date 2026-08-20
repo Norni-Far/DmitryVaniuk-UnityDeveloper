@@ -24,6 +24,13 @@
 .hero-grid { position: absolute; inset: 0; opacity: .2; background-image: linear-gradient(var(--color-line) 1px, transparent 1px), linear-gradient(90deg, var(--color-line) 1px, transparent 1px); background-size: 48px 48px; mask-image: linear-gradient(to bottom, black, transparent 88%); }
 .hero-layout { position: relative; display: grid; gap: var(--space-7); }
 .eyebrow, .section-number, .mini-label, .project-period { color: var(--color-accent); font: 600 .72rem/1.4 var(--font-mono); letter-spacing: .1em; text-transform: uppercase; }
+.eyebrow {
+  max-width: 42rem;
+  margin: 0 0 .85rem;
+  font: 600 clamp(1.05rem, 2.6vw, 1.35rem) / 1.45 var(--font-sans);
+  letter-spacing: .02em;
+  text-transform: none;
+}
 h1 { max-width: 13ch; margin: 1.25rem 0; font-size: clamp(2.75rem, 11vw, 6.8rem); line-height: .94; letter-spacing: -.065em; }
 .hero-summary { max-width: 43rem; color: var(--color-text-muted); font-size: clamp(1rem, 2vw, 1.22rem); }
 .hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }
@@ -84,6 +91,7 @@ h1 { max-width: 13ch; margin: 1.25rem 0; font-size: clamp(2.75rem, 11vw, 6.8rem)
 .education-card, .languages-card { min-height: 16rem; padding: 1.5rem; border: 1px solid var(--color-line); border-radius: var(--radius-lg); background: var(--color-bg-elevated); }
 .education-card h3, .languages-card h3 { margin: 2rem 0 .5rem; font-size: clamp(1.5rem, 5vw, 2rem); }.education-card p:not(.mini-label) { color: var(--color-text-muted); }.education-card span { display: block; margin-top: 1rem; color: var(--color-text-subtle); font: .75rem var(--font-mono); }.languages-card h3 + h3 { margin-top: .5rem; color: var(--color-text-muted); }
 .contact-section { padding: var(--space-8) 0; scroll-margin-top: 4.5rem; background: radial-gradient(circle at 85% 20%, rgba(39,140,255,.14), transparent 35%), var(--color-bg-elevated); border-bottom: 1px solid var(--color-line); }
+.contact-section h2 { white-space: pre-line; }
 .contact-layout { display: grid; gap: var(--space-7); }.contact-layout > div:first-child > p:last-child { max-width: 37rem; margin-top: 1.25rem; color: var(--color-text-muted); }
 .contact-actions { min-width: 0; }.contact-email { min-height: 3.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-bottom: .5rem; border-bottom: 1px solid var(--color-line-strong); color: var(--color-text); text-decoration: none; font-size: clamp(.75rem, 3.5vw, 1.15rem); overflow-wrap: anywhere; }.contact-email:hover { color: var(--color-accent); }
 .social-links { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; }
@@ -174,8 +182,23 @@ footer { border-top: 1px solid var(--color-line); }
 html[lang="ru"] h1 { max-width: 15ch; font-size: clamp(2.2rem, 7.2vw, 4.75rem); line-height: .98; letter-spacing: -.055em; }
 html[lang="ru"] .section-heading h2, html[lang="ru"] .experience-intro h2, html[lang="ru"] .demos-copy h2, html[lang="ru"] .contact-section h2 { font-size: clamp(2rem, 7vw, 4rem); letter-spacing: -.045em; }
 html[lang="ru"] .project-heading h3 { font-size: clamp(1.22rem, 3vw, 1.48rem); }
-html[lang="ru"] .eyebrow { letter-spacing: .07em; }
 html[lang="ru"] .hero-summary { max-width: 39rem; }
+/* Cyrillic reads poorly in mono + uppercase + wide tracking — use Inter for RU UI labels */
+html[lang="ru"] .eyebrow {
+  max-width: none;
+}
+html[lang="ru"] .section-number,
+html[lang="ru"] .mini-label,
+html[lang="ru"] .project-period,
+html[lang="ru"] .timeline-period,
+html[lang="ru"] .hero-location,
+html[lang="ru"] .platforms,
+html[lang="ru"] .metric span,
+html[lang="ru"] .experience-intro strong span {
+  font-family: var(--font-sans);
+  letter-spacing: .02em;
+  text-transform: none;
+}
 @media (min-width: 800px) {
   .demos-layout { grid-template-columns: .7fr 1.3fr; gap: 3rem; }
   .experience-intro { grid-template-columns: 1fr auto; align-items: end; padding: 2rem; }

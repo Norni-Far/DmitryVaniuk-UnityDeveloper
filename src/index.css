@@ -9,6 +9,7 @@ body {
   color: var(--color-text);
   background: var(--color-bg);
   font-family: var(--font-sans);
+  font-optical-sizing: auto;
   line-height: 1.6;
   font-synthesis: none;
   text-rendering: optimizeLegibility;

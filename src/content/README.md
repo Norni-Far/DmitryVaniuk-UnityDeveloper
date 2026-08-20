@@ -41,4 +41,4 @@ General site copy is in `site.ts`. Every visitor-facing text value uses `{ en, r
 
 ## Theme
 
-Edit `theme.css` to change color, font, spacing, radius, shadow, and transition tokens. The site uses local/system font stacks and does not request external font files.
+Edit `theme.css` to change color, font, spacing, radius, shadow, and transition tokens. Body UI uses Inter (Google Fonts, Latin + Cyrillic). Monospace stays for code, tech tags, and EN label styling; on `html[lang="ru"]` bilingual labels switch to Inter without uppercase tracking.
