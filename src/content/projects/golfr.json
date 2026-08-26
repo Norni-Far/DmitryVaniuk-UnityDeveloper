@@ -1,0 +1,50 @@
+{
+  "id": "golfr",
+  "order": 5,
+  "title": {
+    "en": "Golfr",
+    "ru": "Golfr"
+  },
+  "period": {
+    "en": "Solo · Commercial",
+    "ru": "Solo · Коммерческий"
+  },
+  "summary": {
+    "en": "Solo iOS golf module for Golfr: connected Swift swing data to Unity ball physics, local multiplayer, 9-hole progression, and golf-rule scoring.",
+    "ru": "Соло-разработка iOS-модуля Golfr: связал данные удара из Swift с физикой мяча в Unity, локальным мультиплеером, прохождением 9 лунок и подсчётом по правилам гольфа."
+  },
+  "contributions": {
+    "en": [
+      "Designed the Swift → Unity API and converted swing telemetry into simulated ball flight.",
+      "Built 1–4 player pass-and-play, 9-hole progression, scorecards, auto-putts, and par × 2 limits.",
+      "Implemented terrain-aware ball physics, hazards and penalties, cinematic hole flyovers, and shot HUD."
+    ],
+    "ru": [
+      "Спроектировал API Swift → Unity и преобразование телеметрии удара в симуляцию полёта мяча.",
+      "Сделал pass-and-play для 1–4 игроков, прохождение 9 лунок, карточку счёта, автопаттинг и лимит par × 2.",
+      "Реализовал физику мяча по типам покрытия, препятствия и штрафы, кинематографический облёт лунок и игровой HUD."
+    ]
+  },
+  "technologies": [
+    "C#",
+    "Unity",
+    "iOS",
+    "Swift ↔ Unity",
+    "Ball physics",
+    "Local multiplayer"
+  ],
+  "platforms": [
+    "iOS"
+  ],
+  "artwork": "./assets/projects/golfr.png",
+  "links": [
+    {
+      "kind": "website",
+      "label": {
+        "en": "Golfr",
+        "ru": "Сайт Golfr"
+      },
+      "url": "https://golfr.life/"
+    }
+  ]
+}
