@@ -8,6 +8,7 @@ import './App.css'
 
 const expertiseIcons = { gameplay: GameplayIcon, live: LiveIcon, performance: PerformanceIcon }
 const socialIcons = { email: EmailIcon, linkedin: LinkedInIcon, github: GitHubIcon, telegram: TelegramIcon }
+const trackCvDownload = () => window.dispatchEvent(new Event('goatcounter-download-cv'))
 
 function App() {
   const { locale, toggleLocale } = useLocale()
@@ -36,7 +37,7 @@ function App() {
               <p className="hero-summary">{t(content.hero.summary)}</p>
               <div className="hero-actions">
                 <a className="button primary telegram-action" href={content.contact.primary.url} target="_blank" rel="noreferrer"><TelegramIcon /><span>{t(content.contact.primary.label)}</span></a>
-                <a className="button secondary" href={content.cvUrl} download><DownloadIcon />{t(content.labels.downloadCv)}</a>
+                <a className="button secondary" href={content.cvUrl} download onClick={trackCvDownload}><DownloadIcon />{t(content.labels.downloadCv)}</a>
               </div>
             </div>
             <aside className="hero-panel">

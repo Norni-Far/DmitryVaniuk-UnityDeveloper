@@ -6,6 +6,8 @@ interface HeaderProps {
   onToggleLocale: () => void
 }
 
+const trackCvDownload = () => window.dispatchEvent(new Event('goatcounter-download-cv'))
+
 export function Header({ locale, onToggleLocale }: HeaderProps) {
   const [open, setOpen] = useState(false)
   const t = (value: Record<Locale, string>) => value[locale]
@@ -36,7 +38,7 @@ export function Header({ locale, onToggleLocale }: HeaderProps) {
           {links.map(([id, label]) => (
             <a key={id} href={`#${id}`} onClick={() => setOpen(false)}>{t(label)}</a>
           ))}
-          <a className="nav-cv" href={content.cvUrl} download>{t(content.labels.downloadCv)}</a>
+          <a className="nav-cv" href={content.cvUrl} download onClick={trackCvDownload}>{t(content.labels.downloadCv)}</a>
         </nav>
         <div className="header-actions">
           <button className="language-toggle" type="button" onClick={onToggleLocale} aria-label={t(content.labels.language)}>

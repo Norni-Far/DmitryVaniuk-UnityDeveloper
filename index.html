@@ -61,6 +61,14 @@
           window.goatcounter.count()
         }
       })
+      window.addEventListener('goatcounter-download-cv', function () {
+        if (window.goatcounter && typeof window.goatcounter.count === 'function') {
+          window.goatcounter.count({
+            path: '/event/download-cv',
+            title: 'Download CV',
+          })
+        }
+      })
     </script>
   </body>
 </html>
