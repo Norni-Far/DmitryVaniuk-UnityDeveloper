@@ -10,18 +10,18 @@
     "ru": "Solo · Коммерческий"
   },
   "summary": {
-    "en": "Cross-platform live-event control app built from scratch solo. Connects hosts and clients through QR sessions and synchronized media.",
-    "ru": "Кроссплатформенное приложение для управления live-событиями — с нуля, в соло. Связывает ведущего и клиентов через QR-сессии и синхронизацию медиа."
+    "en": "Cross-platform live-event control app built from scratch solo. Attendees join a host Windows PC by QR and drive synchronized media in real time.",
+    "ru": "Кроссплатформенное приложение для управления live-событиями — с нуля, в соло. Гости подключаются к host Windows PC по QR и управляют медиа в реальном времени."
   },
   "contributions": {
     "en": [
-      "Built QR-based live event control and host–client REST communication.",
-      "Implemented cross-platform file management and byte-array synchronization.",
+      "Built a live-event remote: attendees join a host Windows PC by QR and drive media playback in real time.",
+      "Shipped one codebase across iOS, Android, and Windows with unified file management and byte-array sync.",
       "Integrated YouTube SDK workflows for iOS and Android."
     ],
     "ru": [
-      "Собрал QR-управление live-событиями и REST-связь ведущего с клиентами.",
-      "Сделал кроссплатформенную работу с файлами и синхронизацию byte array.",
+      "Собрал remote для live-событий: гости подключаются к host Windows PC по QR и управляют воспроизведением медиа.",
+      "Выпустил одну кодовую базу на iOS, Android и Windows с единым файловым слоем и синхронизацией byte array.",
       "Подключил YouTube SDK для iOS и Android."
     ]
   },
@@ -33,11 +33,13 @@
     "QR sessions",
     "File sync",
     "iOS",
-    "Android"
+    "Android",
+    "Windows"
   ],
   "platforms": [
     "iOS",
-    "Android"
+    "Android",
+    "Windows"
   ],
   "artwork": "./assets/projects/event-controller.png",
   "links": [

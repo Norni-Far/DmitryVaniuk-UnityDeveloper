@@ -6,8 +6,8 @@
     "ru": "Golfr"
   },
   "period": {
-    "en": "Solo · Commercial",
-    "ru": "Solo · Коммерческий"
+    "en": "Solo · Commercial · Current",
+    "ru": "Solo · Коммерческий · Сейчас"
   },
   "summary": {
     "en": "Solo iOS golf module for Golfr: connected Swift swing data to Unity ball physics, local multiplayer, 9-hole progression, and golf-rule scoring.",

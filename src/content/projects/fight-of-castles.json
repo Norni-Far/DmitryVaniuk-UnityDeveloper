@@ -10,19 +10,19 @@
     "ru": "Solo · Коммерческий"
   },
   "summary": {
-    "en": "Android strategy game built solo. Focused on performance so low-end devices stay at a stable 30+ FPS.",
-    "ru": "Android-стратегия, сделанная соло. Фокус на производительности: стабильные 30+ FPS на слабых устройствах."
+    "en": "Android strategy game built solo. Raised low-end devices from 15–20 FPS to a stable 30+ and cut build size by ~25%.",
+    "ru": "Android-стратегия, сделанная соло. Поднял слабые устройства с 15–20 FPS до стабильных 30+ и сократил размер билда примерно на 25%."
   },
   "contributions": {
     "en": [
-      "Applied LOD, refactoring, and Coroutine/Async improvements for stable 30+ FPS.",
-      "Implemented A* pathfinding and integrated Firebase Analytics and AdMob.",
-      "Found and fixed memory leaks with Unity Memory Profiler."
+      "Raised low-end Android from 15–20 FPS to a stable 30+ via LOD, core refactoring, and UniTask async.",
+      "Eliminated memory leaks with Unity Memory Profiler and cut build size by ~25% via async scene loading.",
+      "Implemented A* pathfinding for enemy AI and integrated Firebase Analytics and AdMob."
     ],
     "ru": [
-      "Применил LOD, рефакторинг и улучшения Coroutine/Async для стабильных 30+ FPS.",
-      "Реализовал A* и подключил Firebase Analytics и AdMob.",
-      "Нашёл и устранил утечки памяти через Unity Memory Profiler."
+      "Поднял слабые Android с 15–20 FPS до стабильных 30+ через LOD, рефакторинг ядра и UniTask async.",
+      "Убрал утечки памяти через Unity Memory Profiler и сократил размер билда примерно на 25% за счёт async-загрузки сцен.",
+      "Реализовал A* для AI врагов и подключил Firebase Analytics и AdMob."
     ]
   },
   "technologies": [
@@ -33,7 +33,7 @@
     "AdMob",
     "Memory Profiler",
     "LOD",
-    "Coroutines",
+    "UniTask",
     "Async"
   ],
   "platforms": [

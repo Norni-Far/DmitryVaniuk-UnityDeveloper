@@ -146,7 +146,7 @@ footer { padding: 1.5rem 0; }.footer-inner { display: flex; flex-wrap: wrap; jus
 .experience-years-value { font-size: clamp(2.6rem, 10vw, 5.5rem); line-height: .9; letter-spacing: -.07em; }
 .experience-years-label { max-width: 12ch; color: var(--color-text-muted); font: 600 .75rem/1.35 var(--font-sans); letter-spacing: 0; }
 .experience-grid { display: grid; gap: 1rem; }
-.experience-card { position: relative; min-width: 0; display: flex; flex-direction: column; min-height: 19rem; padding: 1.5rem; border: 1px solid var(--color-line); border-radius: var(--radius-lg); background: rgba(11,14,19,.68); overflow: hidden; }
+.experience-card { position: relative; min-width: 0; display: flex; flex-direction: column; min-height: 19rem; height: max-content; padding: 1.5rem; border: 1px solid var(--color-line); border-radius: var(--radius-lg); background: rgba(11,14,19,.68); overflow: hidden; }
 .experience-card::after { content: ""; position: absolute; inset: auto -25% -50% auto; width: 12rem; height: 12rem; border-radius: 50%; background: rgba(84,213,255,.09); filter: blur(25px); pointer-events: none; }
 .experience-number { color: var(--color-accent); font: .75rem var(--font-mono); }
 .experience-card h3 { margin: 1.5rem 0 .25rem; font-size: 1.5rem; letter-spacing: -.035em; }
@@ -218,7 +218,7 @@ html[lang="ru"] .experience-years-label {
   .workflow-layout { grid-template-columns: .85fr 1.15fr; gap: 2.5rem; align-items: center; }
   .experience-intro { padding: 2rem; gap: 2rem; }
   .experience-years-label { max-width: 16ch; font-size: .8rem; }
-  .experience-grid { grid-template-columns: repeat(3, 1fr); }
+  .experience-grid { grid-template-columns: repeat(2, 1fr); }
   .experience-card { padding: 1.75rem; }
 }
 @media (max-width: 639px) {

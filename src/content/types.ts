@@ -51,6 +51,7 @@ export interface SiteContent {
     focus: LocalizedText
     mode: LocalizedText
   }
+  experienceYears: { value: string; label: LocalizedText }
   experience: Experience[]
   expertise: Array<{ icon: 'gameplay' | 'live' | 'performance'; title: LocalizedText; description: LocalizedText; tags: string[] }>
   workflow: {

@@ -16,12 +16,12 @@
   "contributions": {
     "en": [
       "Built core point-and-click systems, inventory, scene flow, and progression.",
-      "Delivered four levels and multiple mini-games.",
+      "Designed and shipped 4 story levels from blockout to release, plus standalone story-driven mini-games.",
       "Integrated Spine 2D animation into the production pipeline."
     ],
     "ru": [
       "Собрал основные point-and-click системы, инвентарь, переходы сцен и прогрессию.",
-      "Сделал четыре уровня и несколько мини-игр.",
+      "Спроектировал и выпустил 4 сюжетных уровня от blockout до релиза, плюс отдельные сюжетные мини-игры.",
       "Подключил Spine 2D в производственный процесс."
     ]
   },
